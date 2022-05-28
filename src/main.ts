@@ -4,7 +4,7 @@ import './style.css';
 const options: Options = {
   id: 'viewer',
   prefixUrl: '//openseadragon.github.io/openseadragon/images/',
-  tileSources: '/assets/fuffi/dzi.dzi',
+  tileSources: '/fuffi/dzi.dzi',
   animationTime: 0.4,
   blendTime: 0.1,
   constrainDuringPan: true,
@@ -16,8 +16,6 @@ const options: Options = {
   gestureSettingsMouse: {
     clickToZoom: false
   },
-  // showNavigator: true,
-  // navigatorPosition: 'BOTTOM_LEFT',
   navigatorHeight: 150,
   navigatorWidth: 150,
   showNavigationControl: false

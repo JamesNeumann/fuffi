@@ -4,7 +4,7 @@ import './style.css';
 const options: Options = {
   id: 'viewer',
   prefixUrl: '//openseadragon.github.io/openseadragon/images/',
-  tileSources: '../assets/fuffi/dzi.dzi',
+  tileSources: '/assets/fuffi/dzi.dzi',
   animationTime: 0.4,
   blendTime: 0.1,
   constrainDuringPan: true,
